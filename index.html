@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en"><script src="./tronEnergy_files/1066722355475881" async=""></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>TronRent - TRON能量租賃,節省您的USDT轉帳費用</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="TRON, blockchain, cryptocurrency, 能量, TRX能量, USDT," name="keywords">
+    <meta content="TRON能量租賃,節省您的USDT轉帳費用,一次只要3TRX" name="description">
+
+    <!-- Favicon -->
+    <link href="./img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./tronEnergy_files/css2" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="./tronEnergy_files/all.min.css" rel="stylesheet">
+    <link href="./tronEnergy_files/bootstrap-icons.css" rel="stylesheet">
+    <link href="./tronEnergy_files/all(1).min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="./tronEnergy_files/animate.min.css" rel="stylesheet">
+    <link href="./tronEnergy_files/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./tronEnergy_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="./tronEnergy_files/style.css" rel="stylesheet">
+    
+
+<style type="text/css" id="parrottalks-notetaker-style">      html > body.evernote_clearly__before_visible #parrottalks-notetaker > iframe,      html > body.clearlyBeforeVisible #parrottalks-notetaker > iframe:not(#evernoteGlobalTools):not(#evernoteOptionsPage):not(#evernoteClearlyArticle) {        visibility: visible !important;      }      .evernote_clearly__before_visible #evernote_clearly__reformat,      .clearlyBeforeVisible #evernoteClearlyArticle {        z-index: 2147483646 !important;      }    </style></head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        
+
+
+
+<style>
+
+    /* 小螢幕樣式 */
+    @media (max-width: 768px) {
+        input.form-control {
+            font-size: 0.7rem; /* 小螢幕裝置上縮小字體 */
+        }
+    }
+</style>
+<!-- 引入 QRCode.js -->
+<script src="./tronEnergy_files/qrcode.min.js"></script>
+
+<script src="./tronEnergy_files/TronWeb.js"></script>
+<div class="container-xxl position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="https://tronrentenergy.com/" class="navbar-brand p-0">
+            <h1 class="m-0 d-flex align-items-center"><i class="fa-brands fa-codepen me-3"></i>TronRent</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+    </nav>
+
+    <div class="container-xxl py-5 bg-primary hero-header mb-5">
+        <div class="container my-5 py-5 px-lg-5">
+            <div class="row g-5 pt-5">
+                <div class="col-12 text-center text-lg-start">
+                    <h1 class="display-4 text-white animated slideInLeft">能量租賃</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl domain" style="margin-top: 90px; margin-bottom: 90px;">
+    <div class="container px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="section-title position-relative text-center mx-auto mb-4 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <h1 class="mb-3">
+                        租賃地址
+                        <i class="fa-solid fa-qrcode fs-4" style="cursor: pointer;" title="顯示 QR 碼" onclick="showQRCode(&#39;TSdXhkNhZKajk5ek3kLgwMXFgiZuEy2CBR&#39;)"></i>
+                    </h1>
+                    
+                    <p class="mb-1 fw-bold">
+                        使用您想要租能量的地址
+                    </p>
+                    <p class="mb-1 fw-bold">
+                        對著租賃地址轉入TRX
+                    </p>
+                    <p class="mb-1 fw-bold">
+                        租賃地址收到TRX後,12秒內會釋放相對應的能量給轉進TRX的地址
+                    </p>
+                    <p class="mb-1 fw-bold">
+                        時限為1小時,請在1小時內完成USDT的轉帳
+                    </p>
+                </div>
+                <div class="position-relative w-100 my-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5 fw-bold" type="text" disabled="disabled" value="TSdXhkNhZKajk5ek3kLgwMXFgiZuEy2CBR">
+                    <i id="copyIcon" class="fa-solid fa-copy py-2 px-3 position-absolute top-0 end-0 mt-2 me-2" onclick="copyText()"></i>
+                </div>
+                <div class="row g-3 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">65,000能量</h5>
+                        <p class="mb-0">3 TRX</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">130,000能量</h5>
+                        <p class="mb-0">6 TRX</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">195,000能量</h5>
+                        <p class="mb-0">9 TRX</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">260,000能量</h5>
+                        <p class="mb-0">12 TRX</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">325,000能量</h5>
+                        <p class="mb-0">15 TRX</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <h5 class="fw-bold text-primary mb-1">390,000能量</h5>
+                        <p class="mb-0">18 TRX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container px-lg-5">
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <h1 class="mb-3">理解USDT在TRON的轉帳手續費</h1>
+            <p class="mb-1">
+                在TRON上面轉USDT給別人需要消耗2樣東西:<label class="text-danger fw-bold">能量</label>、<label class="text-danger fw-bold">頻寬</label>
+            </p>
+        </div>
+        <div class="row g-5 comparison position-relative">
+            <div class="col-lg-6 pe-lg-5">
+                <div class="section-title position-relative mx-auto mb-4 pb-4">
+                    <h3 class="fw-bold mb-0">一般情境</h3>
+                </div>
+                <div class="row gy-3 gx-5">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-bolt fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">0 能量</h5>
+                        <p>
+                            如果您沒有<a href="https://tronscan.org/#/sr/wallet-stake-home" target="_blank">質押TRX</a>在Tron上面,您的地址能量一定為0
+                        </p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-wifi fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">600 頻寬</h5>
+                        <p>當您轉入0以上的TRX到地址,TRON會自動補充至600頻寬,消耗後緩慢補充</p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-shuffle fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">轉一次USDT給別人</h5>
+                        <p>需要消耗:345頻寬 + 64285能量</p>
+                        <p>345頻寬不足,會自動燃燒TRX</p>
+                        <p>64,285能量不足,會自動燃燒TRX</p>
+                        <p><label class="text-danger fw-bold">若對方沒USDT則能量消耗翻倍為130,285</label></p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-fire fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">所以轉帳為什麼這麼貴</h5>
+                        <p>
+                            頻寬燃燒TRX<br><label class="text-danger fw-bold">(345頻寬 = 0.345TRX)</label>
+                        </p>
+                        <p>
+                            能量燃燒TRX<br><label class="text-danger fw-bold">(64,285能量 = 13.844TRX)</label>
+                        </p>
+                        <p>
+                            對方沒USDT消耗時,燃燒雙倍能量<br><label class="text-danger fw-bold">(130,285能量 = 27.704TRX)</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+                <div class="section-title position-relative mx-auto mb-4 pb-4">
+                    <h3 class="fw-bold mb-0">讓我們幫您</h3>
+                </div>
+                <div class="row gy-3 gx-5">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                        <i class="fa fa-server fa-3x text-secondary mb-3"></i>
+                        <h5 class="fw-bold">能量租賃</h5>
+                        <p><label class="text-danger fw-bold">3TRX 兌換 65,000能量</label><br><label class="text-danger fw-bold">6TRX 兌換 130,000能量</label></p>
+                        <p>以此類推滿足轉帳的消耗</p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                        <i class="fa fa-shield-alt fa-3x text-secondary mb-3"></i>
+                        <h5 class="fw-bold">頻寬消耗</h5>
+                        <p>如果只是轉TRX到別的地址,只需要消耗260頻寬</p>
+                        <p>頻寬不足時,一樣會燃燒TRX</p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-triangle-exclamation fa-3x text-secondary mb-3"></i>
+                        <h5 class="fw-bold">我們是詐騙嗎</h5>
+                        <p>這裡沒有老師教投資,也沒有會員</p>
+                        <p>我們提供能量出租,讓你節省手續費,如果有問題您一定找的到我們</p>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                        <i class="fa-solid fa-wallet fa-3x text-secondary mb-3"></i>
+                        <h5 class="fw-bold">中心化錢包可以使用嗎</h5>
+                        <p>很抱歉,如果是中心化錢包如:幣安、MAX、BitoPro、XREX等等中心化交易所,在轉帳的時候已經從你的轉帳金額扣除(如幣安轉TRON-USDT手續費1USDT),所以用不到我們的服務</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container px-lg-5">
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <h1 class="mb-3">FQAs</h1>
+            <p class="mb-1">相關疑問</p>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-7 col-md-6">
+                <div class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    如果我轉了TRX到租賃地址沒收到能量怎麼辦
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    一般情境下,約8~12秒內會對您所轉出TRX的地址送出相對應的能量,如果沒有轉能量給您,請聯繫我們,經查核後退回原地址
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    如果我轉了不對的TRX進去租賃地址?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    如果不是3、6、9、12、15、18、21、24、27、30上述的TRX單位,我們不會釋放能量給您,請聯繫我們,經查核後退回原地址
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    如果我不小心轉錯了USDT進去租賃地址該怎麼辦
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    請直接通知我們,我們會將您轉錯的交易直接退回原來的地址,但您可能要出手續費(3TRX)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    為什麼我買了能量但還是不能轉USDT
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    如上面的描述,或許您轉帳需要消耗的頻寬不足以燃燒,放一點TRX到您的地址或許是個好方法,亦或是對方的地址沒有USDT要讓您花費雙倍的能量
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    如果我有多個地址,分批租不是很麻煩嗎
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    沒錯,您可以聯繫我們之後,針對您的案例給您方便的操作跟API
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="section-title position-relative mx-auto mb-4 pb-4">
+                    <h3 class="fw-bold mb-0">Customer Support</h3>
+                </div>
+                <p class="mb-2">
+                    <i class="fa-brands fa-telegram-plane telegram-blue me-3"></i>@tronrent_suppport
+                </p>
+                <div class="border rounded text-center p-4 mt-4">
+                    <h5 class="fw-bold mb-4">有任何問題,請即時通知客服</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- QR Code Modal 彈窗 -->
+<div class="modal fade" id="qrModal" tabindex="-1" aria-labelledby="qrModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="qrModalLabel">掃描租賃地址</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+      </div>
+      <div class="modal-body">
+        <img id="qrImage" src="https://tronrentenergy.com" alt="QR Code" class="img-fluid">
+        <p class="mt-2 text-muted" id="qrText"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-white footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+            <div class="container py-5 px-lg-5">
+
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            © TronRent Team, All Right Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!-- Back to Top -->
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="./tronEnergy_files/jquery-3.4.1.min.js"></script>
+    <script src="./tronEnergy_files/bootstrap.bundle.min.js"></script>
+    <script src="./tronEnergy_files/wow.min.js"></script>
+    <script src="./tronEnergy_files/easing.min.js"></script>
+    <script src="./tronEnergy_files/waypoints.min.js"></script>
+    <script src="./tronEnergy_files/counterup.min.js"></script>
+    <script src="./tronEnergy_files/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./tronEnergy_files/main.js"></script>
+    
+
+    <script>
+
+        const tronWeb = new TronWeb({
+            fullHost: 'https://api.trongrid.io', // 官方主網節點
+        });
+
+        const isAddress = (address) => {
+            return tronWeb.isAddress(address)
+        }
+
+        const getAddress = async (address) => {
+
+            const balanceInTrx = await tronWeb.trx.getBalance(address);
+
+            const contractAddress = tronWeb.address.fromHex('0xa614f803b6fd780986a42c78ec9c7f77e6ded13c');
+
+            const contract = await tronWeb.contract().at(contractAddress);
+
+            const balanceInUsdt = await contract.methods.balanceOf(address).call({ from: address });
+
+            const resources = await tronWeb.trx.getAccountResources(address);
+
+            const bandwidth = await tronWeb.trx.getBandwidth(address);
+
+            const energy = `${resources.EnergyUsed || resources.EnergyLimit || 0}`;
+
+            document.querySelector('#divInfo .col-sm-6:nth-child(4) h2').innerText = (balanceInUsdt / 1e6);  // USDT
+            document.querySelector('#divInfo .col-sm-6:nth-child(3) h2').innerText = tronWeb.fromSun(balanceInTrx);  // TRX
+            document.querySelector('#divInfo .col-sm-6:nth-child(1) h2').innerText = bandwidth; // 頻寬
+            document.querySelector('#divInfo .col-sm-6:nth-child(2) h2').innerText = energy; // 能量
+
+            setTimeout(function () {
+                $('[data-toggle="counter-up"]').counterUp({
+                    delay: 10,
+                    time: 2000
+                });
+            }, 100);
+
+
+        };
+
+        function copyText() {
+
+            var textToCopy = 'TSdXhkNhZKajk5ek3kLgwMXFgiZuEy2CBR';
+
+            var tempInput = document.createElement("textarea");
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+
+            tempInput.select();
+            document.execCommand("copy");
+
+            document.body.removeChild(tempInput);
+
+            var copyIcon = document.getElementById("copyIcon");
+            copyIcon.classList.remove('fa-copy');
+            copyIcon.classList.add('fa-check', 'success-icon');
+
+            setTimeout(function () {
+                copyIcon.classList.remove('fa-check', 'success-icon');
+                copyIcon.classList.add('fa-copy');
+            }, 2000);
+        }
+
+        function copyText2() {
+
+            var textToCopy = 'TUbGRYERWQuFxGHVgHgsVqpzizNNYgCDDW';
+
+            var tempInput = document.createElement("textarea");
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+
+            tempInput.select();
+            document.execCommand("copy");
+
+            document.body.removeChild(tempInput);
+
+            var copyIcon = document.getElementById("copyIcon2");
+            copyIcon.classList.remove('fa-copy');
+            copyIcon.classList.add('fa-check', 'success-icon');
+
+            setTimeout(function () {
+                copyIcon.classList.remove('fa-check', 'success-icon');
+                copyIcon.classList.add('fa-copy');
+            }, 2000);
+        }
+
+        function showQRCode(inputId) {
+
+            const address = inputId;
+            const qrImage = document.getElementById("qrImage");
+            const qrText = document.getElementById("qrText");
+
+            // 使用 QRCode.js 生成 QR Code
+            QRCode.toDataURL(address, function (err, url) {
+                if (err) {
+                    console.error("生成 QR Code 出錯：", err);
+                } else {
+                    qrImage.src = url;
+                    qrText.textContent = address;
+                }
+            });
+
+            // 顯示 modal（需引入 bootstrap.min.js）
+            var qrModal = new bootstrap.Modal(document.getElementById('qrModal'), {});
+            qrModal.show();
+        }
+
+        function getAddressInfo() {
+
+            let address = $('#tbAddress').val();
+
+            if (isAddress(address)) {
+                getAddress(address);
+            }
+        }
+
+        $(document).ready(function () {
+
+            getAddressInfo();
+
+            $("#button-addon2").click(function (e) {
+                e.preventDefault();
+                getAddressInfo();
+            });
+
+            $("#button-addon3").click(function (e) {
+                e.preventDefault();
+                $('#tbAddress').val('');
+            });
+        })
+
+    </script>
+
+
+
+
+
+</body></html>
